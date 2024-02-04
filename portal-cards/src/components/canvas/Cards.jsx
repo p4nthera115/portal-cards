@@ -29,8 +29,7 @@ export const Card = ({ route = '/', ...props }) => {
           <meshBasicMaterial color='red' />
         </mesh>
       </MeshPortalMaterial>
-
-      {/* <meshBasicMaterial color={'#1fb2f5'} /> */}
+      <meshBasicMaterial color={'#1fb2f5'} /> {/* // ? test */}
     </mesh>
   )
 }
