@@ -18,8 +18,8 @@ export const Card = ({ route = '/', ...props }) => {
       onPointerOut={() => hover(false)}
       {...props}
     >
-      {/* <sphereGeometry args={[1, 64, 64]} />
-      <MeshDistortMaterial roughness={0} color={hovered ? 'hotpink' : '#1fb2f5'} /> */}
+      <sphereGeometry args={[1, 64, 64]} />
+      <MeshDistortMaterial roughness={0} color={hovered ? 'hotpink' : '#1fb2f5'} />
       <roundedPlaneGeometry args={[2.5, 4, 0.3]} />
       <MeshPortalMaterial side={THREE.DoubleSide}>
         <color attach='background' args={['#000']} />
